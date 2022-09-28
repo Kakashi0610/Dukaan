@@ -1,1 +1,67 @@
 Cheetos
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~
+$ mkdir Dukaan
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~
+$ cd Dukaan
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan
+$ notepad lays.txt
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan
+$ notepad cheetos.txt
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan
+$ git init
+Initialized empty Git repository in C:/Users/Kakashi/Dukaan/.git/
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ ls
+cheetos.txt  lays.txt
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ git add .
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ git commit -m "bill"
+[master (root-commit) d026bfc] bill
+ 2 files changed, 2 insertions(+)
+ create mode 100644 cheetos.txt
+ create mode 100644 lays.txt
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ git log
+commit d026bfcb546ff3e5773abf90525681f092d8b3f2 (HEAD -> master)
+Author: kakashii <aniketshinde8452@gmail.com>
+Date:   Wed Sep 28 13:48:56 2022 +0530
+
+    bill
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ git remote add origin https://github.com/Kakashi0610/Dukaan.git
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ git remote -v
+origin  https://github.com/Kakashi0610/Dukaan.git (fetch)
+origin  https://github.com/Kakashi0610/Dukaan.git (push)
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 260 bytes | 130.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Kakashi0610/Dukaan.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Kakashi@LAPTOP-9USM24GG MINGW64 ~/Dukaan (master)
+$
